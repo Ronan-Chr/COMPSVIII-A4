@@ -50,6 +50,20 @@ docker build -t compsviii-a4 .
 docker run -d -p 3000:3000 --name compsviii-a4-container compsviii-a4
 ```
 
+## Screenshots
+
+- Docker Build Command working 
+
+![The Terminal after success](Screenshots\Docker.Build.png)
+
+- This shows the status when at http://localhost:3000/api/status for the api
+
+![API Status](Screenshots\API.Results.png)
+
+- This is the Docker Container working and what the index.html shows once it is.
+
+![Docker Index](Screenshots\Index.HTML.png)
+
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
 
