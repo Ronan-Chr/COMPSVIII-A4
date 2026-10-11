@@ -67,7 +67,9 @@ docker run -d -p 3000:3000 --name compsviii-a4-container compsviii-a4
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
 
+- The big difference between a VM and a Docker Container is that a VM runs an entirely different OS or a copy of once on your computer to have two seperate enviornments (Can affect system files in one and not the other). Docker uses parts of your computer and only finds whats needed inside the container for the program to work correctly and it packages it into the container. Dockers are much more forgiving in terms of hardware when looking at what they can be pushed to do because it requires less from the parts.
 
+- A development team might opt for containers over VMs because of money or resources of a company using Docker could require significantly less hardware server side to actually get a server to run it on where with Docker the file can have set instructions to not bottleneck parts when using the container. The other thing is the setup with a VM is much more complicated having to move things into the VMs enviornment needed for a program to run vs typing the build command for the dockerfile container can save hours for a dev team.
 
 ## Application Requirements for Docker
 
